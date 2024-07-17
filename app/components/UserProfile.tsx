@@ -27,7 +27,7 @@ const UserProfile = ({ user }: UserProfileProps) => {
               src: user?.avatarUrl,
             }}
             className="transition-transform"
-            name={`${user?.firstname} ${user?.lastname}`}
+            name={`${user?.firstName } ${user?.lastName}`}
           />
         </DropdownTrigger>
         <DropdownMenu aria-label="User Actions" variant="flat">
