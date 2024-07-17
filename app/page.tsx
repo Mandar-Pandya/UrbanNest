@@ -6,7 +6,6 @@ export default async function Home() {
     <>
       {/* <LoginLink>Login</LoginLink>
       <RegisterLink>Register</RegisterLink> */}
-      <h1>helo</h1>
     </>
   );
 }
